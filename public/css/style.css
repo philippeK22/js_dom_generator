@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    border: none;
+}
+
+.firstDiv{
+    display: flex;
+    
+    
+}
+.firstDiv button{
+    margin: 10px;
+}
+
+.secondDiv{
+    display: flex;
+}
+.secondDiv button{
+    margin: 10px;
+}
+
+.thirdDiv{
+    display: flex;
+}
+.thirdDiv button{
+    margin: 10px;
+
+}
