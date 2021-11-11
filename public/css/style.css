@@ -1,28 +1,185 @@
-*{
+* {
     margin: 0;
     border: none;
 }
 
-.firstDiv{
+/* première div */
+.firstDiv {
     display: flex;
-    
-    
+
+
 }
-.firstDiv button{
+
+.firstDiv button {
     margin: 10px;
 }
 
-.secondDiv{
+.butt-w {
+    text-transform: uppercase;
+}
+
+.butt-r {
+    text-transform: uppercase;
+
+}
+
+.butt-g {
+    text-transform: uppercase;
+
+}
+
+.butt-b {
+    text-transform: uppercase;
+
+}
+
+.butt-border {
+    border: solid 2px black;
+    width: 80px;
+    height: 50px;
+
+}
+
+.butt-point {
+    border: 3px black dashed;
+    width: 80px;
+    height: 50px;
+
+}
+
+.point-butt {
+    border: 1px black dashed;
+    width: 80px;
+    height: 50px;
+
+
+}
+
+.bord-all {
+    color: red;
+}
+
+.top-bord {
+    border-top: 3px red solid;
+}
+
+.bord-red {
+    border-top: 10px red solid;
+}
+
+
+/* deuxième div */
+.secondDiv {
     display: flex;
 }
-.secondDiv button{
+
+.secondDiv button {
     margin: 10px;
 }
 
-.thirdDiv{
+.noir-rect {
+    background-color: gray;
+}
+
+.num-all {
+    border: 3px solid black;
+    width: 80px;
+    height: 50px;
+
+}
+
+.num-top {
+    border-top: black 3px solid;
+    width: 80px;
+    height: 50px;
+
+}
+
+.num-right {
+    border-right: black 3px solid;
+    width: 80px;
+    height: 50px;
+
+
+}
+
+.num-down {
+    border-bottom: black 3px solid;
+    width: 80px;
+    height: 50px;
+
+}
+
+.num-left {
+    border-left: black 3px solid;
+    width: 80px;
+    height: 50px;
+
+}
+
+
+/* troisième div */
+.thirdDiv {
     display: flex;
 }
-.thirdDiv button{
+
+.thirdDiv button {
     margin: 10px;
+
+}
+
+.bord-rad {
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    border: solid 3px black;
+
+}
+
+.left-rad {
+    border-top: solid 3px black;
+    border-top-left-radius: 15px;
+    width: 80px;
+    height: 50px;
+    border-left: solid 3px black;
+
+}
+
+.right-rad {
+    border-top: solid 3px black;
+    border-top-right-radius: 15px;
+    width: 80px;
+    height: 50px;
+    border-right: black solid 3px;
+
+}
+
+.right-down {
+    border-bottom: 3px solid black;
+    border-bottom-right-radius: 15px;
+    width: 80px;
+    height: 50px;
+    border-right: black solid 3px;
+
+}
+
+.left-down {
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 15px;
+    width: 80px;
+    height: 50px;
+    border-left: black solid 3px;
+
+}
+
+
+/* mon grand rectangle */
+
+.rect-div {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(200, 200, 207);
+
+    border-radius: 15px;
 
 }
