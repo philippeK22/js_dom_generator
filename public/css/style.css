@@ -16,10 +16,13 @@
 
 .butt-w {
     text-transform: uppercase;
+    
+ 
 }
 
 .butt-r {
     text-transform: uppercase;
+    
 
 }
 
@@ -57,14 +60,22 @@
 
 .bord-all {
     color: red;
+    border-bottom: 3px solid black;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
 }
 
 .top-bord {
-    border-top: 3px red solid;
+    border-top: 3px solid black;
+    /* border-bottom: 3px dashed black;
+    border-left: black 3px dashed;
+    border-right: black 3px dashed; */
+
 }
 
 .bord-red {
-    border-top: 10px red solid;
+    border-top: 10px red solid ;
+
 }
 
 
@@ -74,46 +85,46 @@
 }
 
 .secondDiv button {
-    margin: 10px;
+    margin: 20px;
 }
 
-.noir-rect {
+/* .noir-rect {
     background-color: gray;
-}
+    margin: 10px;
+} */
+/* .couleurInp{
+    border-color: red;
+} */
 
 .num-all {
     border: 3px solid black;
-    width: 80px;
-    height: 50px;
+    margin: 10px;
+    
 
 }
 
 .num-top {
     border-top: black 3px solid;
-    width: 80px;
-    height: 50px;
+    margin: 10px;
 
 }
 
 .num-right {
     border-right: black 3px solid;
-    width: 80px;
-    height: 50px;
+    margin: 10px;
 
 
 }
 
 .num-down {
     border-bottom: black 3px solid;
-    width: 80px;
-    height: 50px;
+    margin: 10px;
 
 }
 
 .num-left {
     border-left: black 3px solid;
-    width: 80px;
-    height: 50px;
+    margin: 10px;
 
 }
 
@@ -130,45 +141,40 @@
 
 .bord-rad {
     border-radius: 10px;
-    width: 80px;
-    height: 50px;
     border: solid 3px black;
+    margin: 10px;
 
 }
 
 .left-rad {
     border-top: solid 3px black;
     border-top-left-radius: 15px;
-    width: 80px;
-    height: 50px;
     border-left: solid 3px black;
+    margin: 10px;
 
 }
 
 .right-rad {
     border-top: solid 3px black;
     border-top-right-radius: 15px;
-    width: 80px;
-    height: 50px;
     border-right: black solid 3px;
+    margin: 10px;
 
 }
 
 .right-down {
     border-bottom: 3px solid black;
     border-bottom-right-radius: 15px;
-    width: 80px;
-    height: 50px;
     border-right: black solid 3px;
+    margin: 10px;
 
 }
 
 .left-down {
     border-bottom: 3px solid black;
     border-bottom-left-radius: 15px;
-    width: 80px;
-    height: 50px;
     border-left: black solid 3px;
+    margin: 10px;
 
 }
 
@@ -183,3 +189,21 @@
     border-radius: 15px;
 
 }
+
+.bord-black{
+    background-color: black;
+    /* height: 20px;
+    width: 40px;
+     */
+
+
+}
+
+.input-1{
+    color: black;
+    
+}
+
+/* .sele-1{
+
+} */
