@@ -88,13 +88,7 @@
     margin: 20px;
 }
 
-/* .noir-rect {
-    background-color: gray;
-    margin: 10px;
-} */
-/* .couleurInp{
-    border-color: red;
-} */
+
 
 .num-all {
     border: 3px solid black;
@@ -143,6 +137,7 @@
     border-radius: 10px;
     border: solid 3px black;
     margin: 10px;
+    
 
 }
 
@@ -186,15 +181,13 @@
     height: 200px;
     background-color: rgb(200, 200, 207);
 
-    border-radius: 15px;
+    
 
 }
 
 .bord-black{
     background-color: black;
-    /* height: 20px;
-    width: 40px;
-     */
+   
 
 
 }
@@ -204,6 +197,3 @@
     
 }
 
-/* .sele-1{
-
-} */

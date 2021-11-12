@@ -84,7 +84,7 @@ console.log(button11);
 
 button11.addEventListener("click",()=>{
     
-    carreVide.style.borderColor = button11.value
+    carreVide.style.borderColor = `${button11.value}`
 
   
 })
@@ -93,9 +93,6 @@ button11.addEventListener("click",()=>{
 
 let button12 = document.querySelector(".num-all");
 console.log(button12);
-// let slect1 = document.querySelector("#sele-1");
-// slect1.innerHTML = "3"
-// console.log(slect1);
 
 
 
@@ -138,5 +135,44 @@ button16.addEventListener("click",()=>{
 
 })
 
+// button derniers div
+
 let button17 = document.querySelector(".bord-rad");
 console.log(button17);
+
+button17.addEventListener("clik",()=>{
+    carreVide.style.borderRadius = `${button17.value}px`
+
+})
+
+let button18 = document.querySelector(".left-rad ");
+console.log(button18);
+
+button18.addEventListener("click",()=>{
+    carreVide.style.borderTopLeftRadius = `${button18.value}px`
+
+})
+
+let button19 = document.querySelector(".right-rad");
+console.log(button19);
+
+button19.addEventListener("click",()=>{
+    carreVide.style.borderTopRightRadius = `${button19.value}px`
+    
+
+})
+
+let button20 =document.querySelector(".right-down");
+console.log(button20);
+
+button20.addEventListener("click",()=>{
+    carreVide.style.borderBottomRightRadius = `${button20.value}px`
+})
+
+let button21 = document.querySelector(".left-down");
+console.log(button21);
+
+button21.addEventListener("click",()=>{
+    carreVide.style.borderBottomLeftRadius = `${button20.value}px`
+
+})
